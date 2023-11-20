@@ -24,7 +24,7 @@ public class VehiculoTurismo extends Vehiculo{
 
     
     public void setPrecio(double precio){
-       this.precio = precio;
+       this.precio = precioFinal();
     }
 
     public void setMarca(String marca){
@@ -57,7 +57,7 @@ public class VehiculoTurismo extends Vehiculo{
     }
 
     public String toString(){
-        return "marca del vehiculo Turismo:"+marca+"\t modelo del Vehiculo turismo:"+modelo+" t\tnumero de plaza:"+plaza;
+    return "marca del vehiculo Turismo:"+marca+"\t modelo del Vehiculo turismo:"+modelo+"\t numero de plaza:"+plaza+" \t precio del Vehiculo:"+precio;
        }
 }
 

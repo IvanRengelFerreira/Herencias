@@ -22,7 +22,7 @@ public class Furgoneta extends Vehiculo {
     }
 
     public String toString(){
-        return "marca de la furgoneta:"+marca+"\t modelo de la furgoneta:"+modelo+"\t precio de la furgoneta: "+precio+"\t capacidad de la furgoneta:"+capacidad;
+        return "marca de la furgoneta:"+marca+"\t modelo de la furgoneta:"+modelo+"\t precio de la furgoneta:"+precio+"\t capacidad de la furgoneta:"+capacidad;
        }
 
     
